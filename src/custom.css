@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+}
+
+.load-text span {
+    color: #fff;
+}
+
+.load-text span {
+    -webkit-animation: loading 1s infinite alternate;
+    animation: loading 1s infinite alternate;
+}
+
+.load-text span:nth-child(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.load-text span:nth-child(2) {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.load-text span:nth-child(3) {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.load-text span:nth-child(4) {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.load-text span:nth-child(5) {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.load-text span:nth-child(6) {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.load-text span:nth-child(7) {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+@-webkit-keyframes loading {
+    0% {
+        opacity: 1;
+        /* Fully visible at the start */
+    }
+
+    100% {
+        opacity: 0;
+        /* Fully invisible at the end */
+    }
+}
+
+@keyframes loading {
+    0% {
+        opacity: 1;
+        /* Fully visible at the start */
+    }
+
+    100% {
+        opacity: 0;
+        /* Fully invisible at the end */
+    }
+}
+
+
+
+.bg-primaryColor {
+    --tw-bg-opacity: 1;
+  
+    background-color: rgba(244, 243, 237, var(--tw-bg-opacity));
+}
+
+.text-mainColor {
+    --tw-text-opacity: 1;
+    color: rgba(7, 7, 7, 1);
+    color: rgba(7, 7, 7, var(--tw-text-opacity));
+    font-family: Oswald, sans-serif;
+}
+
+.football-info-inner li:first-child {
+    margin-left: 0px;
+}
+
+.football-info-inner li {
+    margin-left: -15px;
+
+    flex: none;
+    border-radius: 9999px;
+}
+
+.football-info-inner li img {
+    border-radius: 9999px;
+    display: inline-block;
+    max-width: 100%;
+    height: 60px;
+    width: 60px;
+
+}
+
+
+
+
+
+
+/* Focus State */
+.view-teams-btn:hover {
+    border-width: 1px;
+    border-color: rgba(119, 119, 125, 0.2);
+    background-color: transparent;
+    --tw-text-opacity: 1;
+    color: rgba(7, 7, 7, 1);
+    color: rgba(7, 7, 7, var(--tw-text-opacity));
+    text-decoration-line: none;
+}
+
+
+
+
+
+
+
+
+ 
+
+/* team form */
+.section-title {
+    margin-bottom: 50px;
+}
+.section-title h2 {
+    margin-bottom: 15px;
+    padding-bottom: 1.25rem;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 70px;
+}
+@media (min-width: 768px) {
+    .section-title h2 {
+        font-size: 60px;
+    }
+}
+
+.section-black-title h2 {
+    font-weight: 500;
+    font-family: Oswald, sans-serif;
+    --tw-text-opacity: 1;
+    color: rgba(7, 7, 7, 1);
+    color: rgba(7, 7, 7, var(--tw-text-opacity));
+}
+
+
+.add-team-area {
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.0784313725);
+    --tw-bg-opacity: 1;
+    background-color: rgba(247, 247, 247, 1);
+    background-color: rgba(247, 247, 247, var(--tw-bg-opacity));
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+.form-group label {
+    margin-bottom: 18px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    --tw-text-opacity: 1;
+    color: rgba(7, 7, 7, 1);
+    color: rgba(7, 7, 7, var(--tw-text-opacity));
+}
+
+.form-group input[type=text] {
+  
+    --tw-text-opacity: 1;
+    color: rgba(7, 7, 7, 1);
+    color: rgba(7, 7, 7, var(--tw-text-opacity));
+}
+
+.form-control {
+    border-radius: 10px;
+    width: 500px;
+    border-width: 1px;
+    border-style: solid;
+    --tw-border-opacity: 1;
+    border-color: rgba(7, 7, 7, 1);
+    border-color: rgba(7, 7, 7, var(--tw-border-opacity));
+    background-color: transparent;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    line-height: 1.3;
+    --tw-text-opacity: 1;
+    color: rgba(7, 7, 7, 1);
+    color: rgba(7, 7, 7, var(--tw-text-opacity));
+}
+
+
+
+/* header css */
+.main-nav
+{
+    position: sticky;
+    z-index: 5;
+    top: 0;  
+    background-color: rgba(244, 243, 237, 1);
+    width: 100%;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu ul li 
+{
+    position: relative;
+    margin-left: 30px;
+    display: inline-block;
+}
+.linkstyle::before {
+    position: absolute;
+    left: 0px;
+    top: 90%;
+    height: 1px;
+    width: 100%;
+    transform-origin: 100% 50%;
+    --tw-scale-x: 0;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(0) scaleY(var(--tw-scale-y));
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-bg-opacity: 1;
+    background-color: rgba(7, 7, 7, 1);
+    background-color: rgba(7, 7, 7, var(--tw-bg-opacity));
+    transition-property: transform;
+    transition-duration: 300ms;
+    content: var(--tw-content);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.linkstyle:hover::before {
+    transform-origin: 0% 50%;
+    content: var(--tw-content);
+    --tw-scale-x: 1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(1) scaleY(var(--tw-scale-y));
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.linkstyle{
+    display: inline-block;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 20px;
+    color: rgba(7, 7, 7, 1);
+}
+
+
+.fixed-header .nav-inner {
+    border-bottom: 1px solid yellow;  /* Replace with actual color for buttonBorder */
+    background-color: yellow;  /* Replace with actual color or define the primaryColor variable */
+    transition: all 0.5s ease-in-out;
+  }
+
+/* home page */
+
+.football-info-inner {
+    margin: 0px;
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+}
+.football-info-inner li {
+    margin-left: 8px;
+    height: 60px;
+    width: 60px;
+    flex: none;
+    border-radius: 9999px;
+}
+.football-info-inner li:first-child {
+    margin-left: 95px;
+}
+
+.football-info-inner li img{
+    border-radius: 10px;
+}
+
+.football-data
+{
+    margin-top: 20px;
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    color: rgba(7, 7, 7, 1);
+    
+}
+
+
+.football-data span {
+    --tw-text-opacity: 1;
+    color: rgba(150, 150, 150, 1);
+    color: rgba(150, 150, 150, var(--tw-text-opacity));
+}
+
+.football-data p{
+    font-size: 16px;
+    margin-top: 14px;
+    color: rgba(7, 7, 7, 1);
+}
+
+
+.football-image {
+    position: relative;
+    text-align: center;
+
+}
+
+.football-image img {
+    width: 400px;
+    --tw-rotate: 10deg;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(10deg) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-radius: 20px;
+    border-width: 3px;
+    --tw-border-opacity: 1;
+    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+    text-align: center;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.football-image img:hover {
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+
+/* Theme Button */
+.view-teams-btn {
+    margin-bottom: 0.625rem;
+    margin-right: 5px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: rgba(119, 119, 125, 0.2);
+    --tw-bg-opacity: 1;
+    background-color: rgba(7, 7, 7, 1);
+    background-color: rgba(7, 7, 7, var(--tw-bg-opacity));
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+.footer
+{
+    background-color: rgba(7, 7, 7, 1);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+
+
+}
+.full-list
+{
+    height: 60px;
+    width: 100%;
+    border-width: 3px;
+    background-color: rgba(244, 243, 237, 1);
+    padding-left: 25px;
+    padding-right: 50px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    line-height: 60px;
+    outline: 2px solid rgb(8, 8, 8);
+}
+
+.delete-btn
+{
+    margin-right: 5px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: rgba(119, 119, 125, 0.2);
+    background-color: rgba(7, 7, 7, 1);
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.delete-btn:hover
+{
+    border-width: 1px;
+    border-color: rgba(119, 119, 125, 0.2);
+    background-color: transparent;
+    --tw-text-opacity: 1;
+    color: rgba(7, 7, 7, 1);
+    color: rgba(7, 7, 7, var(--tw-text-opacity));
+    text-decoration-line: none;
+}
+.page
+{
+    background-color: rgba(7, 7, 7, 1);
+
+}
